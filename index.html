@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css" />   
+    <link rel="stylesheet" href="styles/menu.css" />   
+    <link rel="stylesheet" href="styles/capa.css" />   
+    <link rel="stylesheet" href="styles/sobre.css" />   
+    <link rel="stylesheet" href="styles/portfolio.css" />   
+    <link rel="stylesheet" href="styles/habilidades.css" />   
+    <link rel="stylesheet" href="styles/experiencia.css" />   
+    <link rel="stylesheet" href="styles/educacao.css" />   
+    <link rel="stylesheet" href="styles/contato.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>Portfólio</title>
+  </head>
+  <body>
+
+    <header>
+      <nav class="menu">
+          <a href="#capa" class="menu__item"><i class="fa-solid fa-house" style="color: #ffffff;"></i><span> HOME</span></a>            
+          <a href="#sobre" class="menu__item"><i class="fa-solid fa-user" style="color: #ffffff;"></i><span> SOBRE</span></a>
+          <a href="#portfolio" class="menu__item"><i class="fa-solid fa-briefcase" style="color: #ffffff;"></i><span> PORTFÓLIO</span></a>
+          <a href="#habilidades" class="menu__item"><i class="fa-solid fa-brain" style="color: #ffffff;"></i><span> HABILIDADES</span></a>
+          <a href="#experiencia" class="menu__item"><i class="fa-solid fa-user-tie" style="color: #ffffff;"></i><span> EXPERIÊNCIA</span></a>
+          <a href="#educacao" class="menu__item"><i class="fa-solid fa-user-graduate" style="color: #ffffff;"></i><span> EDUCAÇÃO</span></a>
+          <a href="#contato" class="menu__item"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i><span> CONTATO</span></a>
+          <a href="" class="menu__menu"><i class="fa-sharp fa-solid fa-bars fa-2xl" style="color: #fbfcfe;"></i></a>       
+      </nav>
+    </header>
+
+    <section id="capa" class="capa">
+      <img src="images/ragnar-capa.jpg" alt="" class="capa__imagem" />
+      <div class="capa__container">
+        <div class="capa__conteudo">
+          <p class="capa__introducao">OLÁ!</p>
+          <h1 class="capa__titulo">
+            <p class="capa__nome">EU SOU <span>RAGNAR LOTHBROK</span></p>
+          </h1>
+          <p class="capa__texto">
+            TI'm a Tunisian based web designer & front-end developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+          </p>
+          <button class="capa__botao-mais">MAIS</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+      <div class="sobre__container">     
+        <div class="sobre__conteudo">
+          <h2 class="titulo">| SOBRE</h2>
+          <ul class="sobre__texto">          
+            <li class="sobre__texto-titulo">NOME</li>
+            <li class="sobre__texto-info">RAGNAR LOTHBROK</li>          
+            <li class="sobre__texto-titulo">IDADE</li>
+            <li class="sobre__texto-info">33 ANOS</li>          
+            <li class="sobre__texto-titulo">PROFISSÃO</li>
+            <li class="sobre__texto-info">DESENVOLVEDOR FULLSTACK</li>          
+            <li class="sobre__texto-titulo">NATURALIDADE</li>
+            <li class="sobre__texto-info">ITAJAÍ/SC</li>          
+            <li class="sobre__texto-titulo">NACIONALIDADE</li>
+            <li class="sobre__texto-info">BRASILEIRO</li>          
+            <li class="sobre__texto-titulo">GITHUB</li>
+            <li class="sobre__texto-info">WWW.GITHUB.COM/RAGNAR</li>            
+            <button class="sobre__botao-curriculo">CURRÍCULO</button>          
+          </ul>
+        </div>
+        <img src="images/ragnar-sobre.jpg" alt="" class="sobre__imagem" />
+      </div>     
+    </section>    
+    
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio__container">
+        <div class="portfolio__conteudo">
+          <h2 class="titulo">| PORTFÓLIO</h2>
+          <div class="slider-container">
+            <div class="portfolio__botoes">
+              <a href="#" class="portfolio__botao" data-carousel="frontend">
+                <i class="fa-solid fa-palette"></i><span> FRONTEND</span>
+              </a>
+              <a href="#" class="portfolio__botao" data-carousel="backend">
+                <i class="fa-solid fa-code"></i><span> BACKEND</span>
+              </a>
+              <a href="#" class="portfolio__botao" data-carousel="database">
+                <i class="fa-solid fa-database"></i><span> BANCO DE DADOS</span>
+              </a>
+            </div>
+            <div class="slider-content" id="frontend-carousel">
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-frontend-1.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a class="visit-button">Visitar Projeto</a>
+                </div>                   
+              </div>
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-frontend-2.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a class="visit-button">Visitar Projeto</a>
+                </div>                  
+              </div>
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-frontend-3.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a class="visit-button">Visitar Projeto</a>
+                </div>                   
+              </div>
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-frontend-4.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a class="visit-button">Visitar Projeto</a>
+                </div>                  
+              </div>                           
+            </div>
+            <div class="slider-content" id="backend-carousel">
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-backend-1.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a href="https://github.com/giuliannoramos/ProducerApiCacheRedis/blob/main/ProducerApiCacheRedis/CacheRedis.Api/DbContexts/CotacaoContext.cs" target="_blank" class="visit-button">Visitar Projeto</a>
+                </div>                   
+              </div>
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-backend-2.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a href="https://github.com/giuliannoramos/Desafio/blob/master/Controllers/EnderecoController.cs" target="_blank" class="visit-button">Visitar Projeto</a>
+                </div>                   
+              </div>
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-backend-3.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a href="https://github.com/giuliannoramos/AllogEnter_Modulo1_Csharp/blob/main/src/Univali.Api/Controllers/AuthorsController.cs" target="_blank" class="visit-button">Visitar Projeto</a>
+                </div>                   
+              </div> 
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-backend-4.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a href="https://github.com/giuliannoramos/CepEndereco/blob/main/src/CepEndereco.Api/Controllers/CepEnderecoController.cs" target="_blank" class="visit-button">Visitar Projeto</a>
+                </div>                   
+              </div>            
+            </div>
+            <div class="slider-content" id="database-carousel">
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-database-4.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a class="visit-button">Visitar Projeto</a>
+                </div>                   
+              </div>
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-database-3.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a class="visit-button">Visitar Projeto</a>
+                </div>                   
+              </div>
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-database-2.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a class="visit-button">Visitar Projeto</a>
+                </div>                    
+              </div>
+              <div class="slider-single">
+                <img class="slider-single-image" src="images/portfolio-database-1.jpg" alt="1" />
+                <div class="image-overlay">
+                  <a class="visit-button">Visitar Projeto</a>
+                </div>                   
+              </div>             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <section id="habilidades" class="skills">
+      <div class="skills__container">
+        <div class="skills__conteudo">
+          <h2 class="titulo">| HABILIDADES</h2>
+        </div>
+        <div class="skills">
+          <div class="skill">
+            <h3 class="skill__titulo">HTML</h3>
+            <img src="images/html.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">CSS</h3>
+            <img src="images/css.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">JavaScript</h3>
+            <img src="images/javascript.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">C#</h3>
+            <img src="images/csharp.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">.Net Core</h3>
+            <img src="images/netcore.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+                <i class="fa-solid fa-star-half"></i>
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">TypeScript</h3>
+            <img src="images/ts.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+                <i class="fa-solid fa-star-half"></i>
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">React</h3>
+            <img src="images/react.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+                <i class="fa-solid fa-star-half"></i>
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">VS Code</h3>
+            <img src="images/vscode.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+                <i class="fa-solid fa-star-half"></i>
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">GIT</h3>
+            <img src="images/git.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+                <i class="fa-solid fa-star-half"></i>
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">PostgreSQL</h3>
+            <img src="images/postgresql.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">Webpack</h3>
+            <img src="images/webpack.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">Nginx</h3>
+            <img src="images/nginx.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">Ubuntu</h3>
+            <img src="images/ubuntu.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">AWS</h3>
+            <img src="images/aws.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>                
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">Photoshop</h3>
+            <img src="images/photoshop.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>                
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill__titulo">Figma</h3>
+            <img src="images/figma.png" alt="Logotipo do HTML" class="skill__imagem">
+            <p class="skill__estrela">
+                <i class="fa-solid fa-star"></i>               
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="experiencia">
+      <div class="experiencia__container">
+        <div class="experiencia__conteudo">
+          <h2 class="titulo">| EXPERIÊNCIA</h2>
+          <p class="experiencia__texto">      
+            <p class="texto__icone"><i class="fa-solid fa-calendar-days"></i><span> 2012 - 2014</span></p>
+            <p class="texto__titulo">GOOGLE</p>
+            <p class="texto__descricao">Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.</p>              
+            <p class="texto__icone"><i class="fa-solid fa-calendar-days"></i><span> 2014 - 2018</span></p>
+            <p class="texto__titulo">BOOKING</p>
+            <p class="texto__descricao">Cargo de desenvolvedor junior na equipe de desenvolvimento back end.</p>              
+            <p class="texto__icone"><i class="fa-solid fa-calendar-days"></i><span> 2018 - 2021</span></p>
+            <p class="texto__titulo">FACEBOOK</p>
+            <p class="texto__descricao">Cargo de desenvolvedor pleno na equipe de criação da biblioteca React.</p>              
+            <p class="texto__icone"><i class="fa-solid fa-calendar-days"></i><span> 2021 - Trabalhando</span></p>
+            <p class="texto__titulo">TWITTER</p>
+            <p class="texto__descricao">Cargo de desenvolvedor sênior na equipe de criação do aplicativo X.</p> 
+            <button class="experiencia__botao-mais">MAIS</button>           
+          </p>
+        </div>
+          <div class="experiencia__dados">
+            <div class="dado">
+              <p class="dado__numero">9</p>
+              <p class="dado__descricao">ANOS DE EXPERIÊNCIA</p>
+            </div>
+            <div class="dado">
+              <p class="dado__numero">16</p>
+              <p class="dado__descricao">PROJETOS INDIVIDUAIS</p>
+            </div>
+            <div class="dado">
+              <p class="dado__numero">72</p>
+              <p class="dado__descricao">PROJETOS EM EQUIPE</p>
+            </div>
+            <div class="dado">
+              <p class="dado__numero">9</p>
+              <p class="dado__descricao">CURSOS DE ESPECIALIZAÇÃO</p>
+            </div>          
+        </div>        
+      </div>
+    </section>
+
+    <section id="educacao" class="educacao">
+      <div class="educacao__container">
+        <div class="educacao__conteudo">
+          <h2 class="titulo">| EDUCAÇÃO</h2>
+          <div class="educacao__texto-esquerda">
+            <p class="educacao__nome-coluna">BACHARELADO E PÓS-GRADUAÇÃO</p>     
+            <p class="educacao__icone"><i class="fa-solid fa-calendar-days"></i><span> 2012 - 2016</span></p>
+            <p class="educacao__titulo">CIÊNCIA DA COMPUTAÇÃO</p>
+            <p class="educacao__descricao">Bracharelado em Ciência da Computação pela Univali</p>
+            <p class="educacao__icone"><i class="fa-solid fa-calendar-days"></i><span> 2012 - 2016</span></p>
+            <p class="educacao__titulo">BIG DATA</p>
+            <p class="educacao__descricao">Pós graduado em Big Data pela UFSC</p>
+            <p class="educacao__icone"><i class="fa-solid fa-calendar-days"></i><span> 2012 - 2016</span></p>
+            <p class="educacao__titulo">COMPUTAÇÃO APLICADA</p>
+            <p class="educacao__descricao">Mestrado em Computação Aplicada pela UFSP</p>                       
+          </div>
+          <div class="educacao__texto-meio">
+            <p class="educacao__nome-coluna">CURSO DE ESPECIALIZAÇÃO</p>       
+            <p class="educacao__icone"><i class="fa-solid fa-calendar-days"></i><span> 2019 - 2020</span></p>
+            <p class="educacao__titulo">FRONTEND</p>
+            <p class="educacao__descricao">Curso de formação FrontEnd ministrado por Jackson Camara. Total de 500 horas concluídas.</p>
+            <p class="educacao__icone"><i class="fa-solid fa-calendar-days"></i><span> 2021 - 2022</span></p>
+            <p class="educacao__titulo">BACKEND</p>
+            <p class="educacao__descricao">Curso de formação BackEnd ministrado por Jackson Camara. Total de 500 horas concluídas.</p>
+            <p class="educacao__icone"><i class="fa-solid fa-calendar-days"></i><span> 2023 - ANDAMENTO</span></p>
+            <p class="educacao__titulo">FULLSTACK</p>
+            <p class="educacao__descricao">Curso de formação FullStack ministrado por Jackson Camara. Total de 500 horas concluídas.</p>                       
+          </div>
+          <div class="educacao__texto-direita">
+            <p class="educacao__nome-coluna">CURSO DE ESPECIALIZAÇÃO</p>       
+            <p class="educacao__icone"><i class="fa-solid fa-calendar-days"></i><span> 2017 - 2019</span></p>
+            <p class="educacao__titulo">INGLÊS</p>
+            <p class="educacao__descricao">Curso de Inglês na Univali Idiomas. Níveis a1, a2, b1</p>
+            <p class="educacao__icone"><i class="fa-solid fa-calendar-days"></i><span> 2020 - 2021</span></p>
+            <p class="educacao__titulo">INGLÊS</p>
+            <p class="educacao__descricao">Curso de Inglês na Wizard. Níveis b2, c1</p>
+            <p class="educacao__icone"><i class="fa-solid fa-calendar-days"></i><span> 2021 - ANDAMENTO</span></p>
+            <p class="educacao__titulo">INGLÊS</p>
+            <p class="educacao__descricao">Curso de Inglês particular. Nível c2</p>
+            <button class="educacao__botao-mais">MAIS</button>                      
+          </div>          
+        </div>
+      </div>
+    </section>    
+    
+    <section id="contato" class="contato">
+      <div class="contato__container">
+        <div class="contato__conteudo">
+          <h2 class="titulo">| CONTATO</h2>
+          <div class="contato__icones-coluna">
+            <div class="contato__icone-item">
+              <a href="mailto:giuleramos@gmail.com">
+                <i class="far fa-envelope"></i>
+                <div class="contato__icone-descricao">
+                  <span class="contato__icones-titulo">EMAIL</span>
+                  <span class="contato__icones-subtitulo">giuleramos@gmail.com</span>
+                </div>
+              </a>
+            </div>            
+            <div class="contato__icone-item">
+              <a href="https://wa.me/5547997275160" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                <div class="contato__icone-descricao">
+                  <span class="contato__icones-titulo">WHATSAPP</span>
+                  <span class="contato__icones-subtitulo">47 9 9727-5160</span>
+                </div>
+              </a>
+              </div>            
+            <div class="contato__icone-item">
+              <a href="https://www.linkedin.com/in/giulianno-ramos/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <div class="contato__icone-descricao">
+                  <span class="contato__icones-titulo">LINKEDIN</span>
+                  <span class="contato__icones-subtitulo">giulianno-ramos</span>
+                </div>
+              </a>
+              </div>
+             <div class="contato__icone-item">
+              <a href="https://www.instagram.com/giulianno_ramos/" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <div class="contato__icone-descricao">
+                  <span class="contato__icones-titulo">INSTAGRAM</span>
+                  <span class="contato__icones-subtitulo">giulianno_ramos</span>
+                </div>
+              </a>
+            </div>
+            <div class="contato__icone-item">
+              <a href="https://github.com/giuliannoramos" target="_blank">
+                <i class="fab fa-github"></i>
+                <div class="contato__icone-descricao">
+                  <span class="contato__icones-titulo">GITHUB</span>
+                  <span class="contato__icones-subtitulo">giuliannoramos</span>
+                </div>
+              </a>
+            </div>           
+          </div>
+        </div>
+        <div class="contato__formulario">
+          <form action="https://api.staticforms.xyz/submit" method="POST">
+            <input type="text" name="name" required placeholder="NOME" class="contato__input">
+            <input type="email" name="email" required placeholder="EMAIL" class="contato__input">
+            <input type="text" name="telefone" placeholder="TELEFONE" class="contato__input">
+            <input type="text" name="assunto" placeholder="ASSUNTO" class="contato__input">
+            <textarea name="message" required cols="30" rows="10" placeholder="MENSAGEM" class="contato__input"></textarea>            
+            <button type="submit" class="contato__botao-mais">ENVIAR</button>
+            <input type="hidden" name="accessKey" value="82007811-3a0c-465e-b431-859035aae840">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+          </form>
+        </div>
+      </div>      
+    </section>
+
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/portfolio.js"></script>
+  </body>
+</html>

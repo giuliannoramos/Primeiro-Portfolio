@@ -1,0 +1,53 @@
+/* ============== SOBRE ============== */
+
+.sobre__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10em;
+  }
+  
+  .sobre__conteudo {
+    padding: 0 3em;
+    margin-bottom: 15vh;
+    margin-top: 15vh;    
+  }
+  
+  .sobre__imagem {
+    margin-top: 4vw;
+    width: 40vw;
+  }
+
+  li {
+    margin-left: 0;
+  }
+  
+  .sobre__texto-titulo {
+    color: var(--subtitulo);
+    font-size: 1.25em;
+    margin-top: 1vw;
+    /* margin-bottom: 0.3px; */    
+  }
+  
+  .sobre__texto-info {
+    font-size: 1.3em;
+    /* margin-top: 0px; */
+  }
+  
+  .sobre__botao-curriculo {
+    background-color: var(--icones);
+    margin: 1.5em 0;
+    width: 10em;
+    padding: 0.5em 0.3em;
+    border-radius: 10px;
+    color: var(--branco);
+    font-size: 1em;
+    font: bold;
+  }
+
+  .sobre__botao-curriculo:hover {
+    cursor: pointer;
+    background-color: var(--destaque);
+    transition: 1s;
+    color: var(--background);    
+  }

@@ -1,0 +1,72 @@
+/* ============== CAPA ============== */
+
+.capa {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .capa__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10vw;
+  }
+  
+  .capa__conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 14vw;
+    margin-left: 7vw;
+  }
+  
+  .capa__introducao {
+    font-size: 25px;
+    margin-top: 7vh;
+  
+    margin-bottom: 0px;
+  }
+  
+  .capa__titulo {
+    font-size: clamp(4vh, 5vh, 6vh); /* valores mínimo, preferido e máximo */
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .capa__nome {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .capa__nome span {
+    font-weight: bold;
+  }
+  
+  .capa__texto {
+    font-size: clamp(1vh, 2vh, 2.5vh); /* valores mínimo, preferido e máximo */
+    font-weight: normal;
+    margin-right: 7vw;
+  }
+  
+  .capa__imagem {
+    width: 40%;
+  }
+  
+  .capa__botao-mais {
+    background-color: var(--icones);
+    margin: 3em 0;
+    width: 10em;
+    padding: 0.5em 0.3em;
+    border-radius: 10px;
+    color: var(--branco);
+    font-size: 1em;
+    font: bold;
+  }
+
+  .capa__botao-mais:hover {
+    cursor: pointer;
+    background-color: var(--destaque);
+    transition: 1s;
+    color: var(--background);
+  }

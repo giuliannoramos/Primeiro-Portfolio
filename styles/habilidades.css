@@ -1,0 +1,56 @@
+/* ============== HABILIDADES ============== */
+
+.skills__container {
+    margin-left: 13em;      
+  }
+  
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3vw 7vw;
+    width: 100%;         
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;    
+  }
+  
+  .skill__imagem {
+    width: clamp(10vh, 10vh, 10vh);
+    filter: grayscale(100%);
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+  .skill__titulo {
+    color: var(--subtitulo);
+    margin-bottom: 10%;
+    white-space: nowrap;
+  }
+  
+  .skill__estrela {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(0.5vmin, 1vmin, 1vmin);
+    margin-top: 1vh;
+    column-gap: 0.5vh;
+  }
+  
+  .skill:hover .skill__imagem {
+    filter: grayscale(0%);
+    transition: 2s;
+  }
+  
+  .skill:hover .skill__estrela {
+    color: var(--destaque);
+    transition: 2s;
+  }
+  
+  .skill:hover .skill__titulo {
+    color: var(--destaque);
+    transition: 2s;
+  }

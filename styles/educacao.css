@@ -1,0 +1,81 @@
+/* ============== EDUCAÇÃO ============== */
+
+.educacao__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10em;  
+  }
+  
+  .educacao__conteudo {
+    padding: 0 3em;
+    margin-bottom: 10vh;
+  }
+  
+  .educacao__texto-esquerda {
+    width: 20vw;
+    display: inline-table;
+  }
+  
+  .educacao__texto-meio {
+    width: 20vw;
+    display: inline-table;
+    margin-left: 7vw;
+  }
+  
+  .educacao__texto-direita {
+    width: 20vw;
+    display: inline-table;
+    margin-left: 7vw;
+  }
+  
+  .educacao__nome-coluna {
+    border: 3px solid var(--icones);
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    color: var(--destaque);
+    background-color: var(--icones);
+  }
+  
+  .educacao__icone {
+    margin-top: 3vw;
+    color: var(--destaque);
+    margin-bottom: 0;
+  }
+  
+  .educacao__icone span {
+    color: var(--subtitulo);
+  }
+  
+  .educacao__titulo {
+    font-size: 1.25em;
+    margin-bottom: 0.3px;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+  
+  .educacao__descricao {
+    color: var(--subtitulo);
+    font-size: 0.9em;
+    margin-top: 0;
+  }
+  
+  .educacao__botao-mais {
+    background-color: var(--icones);
+    margin-top: 3em;
+    width: 10em;
+    padding: 0.5em 0.3em;
+    border-radius: 10px;
+    color: var(--branco);
+    font-size: 1em;
+    align-self: flex-end;
+    margin-left: 10vw;
+  }
+
+  .educacao__botao-mais:hover {
+    cursor: pointer;
+    background-color: var(--destaque);
+    transition: 1s;
+    color: var(--background);
+  }

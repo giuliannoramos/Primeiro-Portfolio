@@ -1,0 +1,96 @@
+/* ============== EXPERIÊNCIA ============== */
+
+.experiencia__container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10em;
+  align-items: center;
+}
+
+.experiencia__conteudo {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3em;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+}
+
+.experiencia__dados {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin-right: 20vh;
+  margin-top: 10vh;
+}
+
+.experiencia__texto {
+  width: 10vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.texto__item {
+  margin-bottom: 1.5em;
+}
+
+.texto__icone {
+  color: var(--destaque);
+  margin-bottom: 0.3px;
+}
+
+.texto__icone span {
+  color: var(--subtitulo);
+}
+
+.texto__titulo {
+  font-size: 1.25em;
+  margin-bottom: 0.3px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.texto__descricao {
+  color: var(--subtitulo);
+  font-size: 0.9em;
+  margin-top: 0px;
+}
+
+.dado {
+  width: 20vh;
+  border: 3px solid var(--subtitulo);
+  border-radius: 5px;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.dado__numero {
+  font-size: 2.7em;
+  color: var(--destaque);
+  margin-bottom: 0px;
+  margin-top: 1vh;
+  font-weight: bold;
+}
+
+.dado__descricao {
+  font-size: 0.8em;
+}
+
+.experiencia__botao-mais {
+  background-color: var(--icones);
+  margin-top: 3em;
+  width: 10em;
+  padding: 0.5em 0.3em;
+  border-radius: 10px;
+  color: var(--branco);
+  font-size: 1em;
+  align-self: flex-start;
+}
+
+.experiencia__botao-mais:hover {
+  cursor: pointer;
+  background-color: var(--destaque);
+  transition: 1s;
+  color: var(--background);
+}

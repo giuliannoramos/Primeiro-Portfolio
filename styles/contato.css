@@ -1,0 +1,109 @@
+/* ============== CONTATO ============== */
+
+.contato__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10em;
+}
+
+.contato__conteudo {
+  padding: 0 3em;
+  margin-bottom: 15vh;
+  margin-top: 0px;
+}
+
+/* Alinhar os ícones à esquerda em 2 linhas */
+.contato__icones-coluna {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contato__icone-item {
+  display: flex;
+  align-items: center;
+}
+
+.contato__icone-item a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: var(--escrita);
+}
+
+.contato__icone-item i {
+  margin-right: 0.5em;
+}
+
+.contato__formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30vw;
+  margin-right: 20vw;
+  margin-left: 30vw;
+  margin-top: 8vw;
+  color: var(--icones);
+}
+
+.contato__input {
+  background-color: var(--icones);
+  color: var(--escrita);
+  border-radius: 8px;
+  border: solid 1px var(--escrita);
+  padding: 1.5vh;
+  margin-bottom: 3%;
+}
+
+.contato__formulario button {
+  background-color: var(--icones);  
+  font: bold;
+  margin-top: 1em;
+  width: 10em;
+  padding: 0.5em 0.3em;
+  border-radius: 10px;
+  color: var(--escrita);
+  font-size: 1em;  
+  margin-left: 16vw;  
+}
+
+.contato__formulario button:hover {
+  cursor: pointer;
+  background-color: var(--destaque);
+  transition: 1s;
+  color: var(--background);
+}
+
+.contato__formulario input,
+.contato__formulario textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  width: 25vw;
+}
+
+.contato__icone-item i {
+  margin-top: 3vw;
+  font-size: 2em;
+  border: 0.5vw solid var(--destaque);
+  border-radius: 20%;
+  background-color: var(--destaque);
+  color: var(--background);
+}
+
+.contato__icone-item i:hover {
+  border: 0.5vw solid var(--escrita);
+  background-color: var(--escrita);
+  transition: 1s;
+}
+
+/* Ajustar posicionamento do conteúdo da descrição */
+.contato__icone-descricao {
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.contato__icones-titulo {
+  color: var(--subtitulo);
+}

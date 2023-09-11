@@ -1,0 +1,38 @@
+.obrigado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--background);
+    font-family: "Roboto", sans-serif;  
+}
+
+.obrigado__texto {
+    font-size: 3vw;
+    color: var(--destaque);
+    margin-bottom: 5vw;
+    
+}
+
+.obrigado__paragrafo {
+    color: var(--escrita);
+    margin-bottom: 10vw;
+    font-size: 1.5vw;    
+}
+
+.obrigado__botao {
+    font-size: 1.5vw;
+    padding: 0.5em 0.7em;
+    background-color: var(--icones);
+    border-radius: 100px;
+    text-decoration: none;
+    color: var(--escrita);    
+}
+
+.obrigado__botao:hover {
+    cursor: pointer;
+    background-color: var(--destaque);    
+    transition: 1s;
+    color: var(--background);
+}
